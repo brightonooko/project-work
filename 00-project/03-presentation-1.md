@@ -73,6 +73,36 @@ A complete charging application, complex user interface, and custom-trained AI m
 ---
 
 <!-- 2xl -->
+## Functional requirements — Database and Queries
+
+**1. Manage charging-network data**: Store stations, charging points, users, vehicles, reservations, sessions, measurements, tariffs, payments, and technical events.
+
+**2. Maintain database integrity**: Implement at least **10 related tables**, targeting **3NF**. Define appropriate primary keys, foreign keys, relationships, and business constraints.
+
+**3. Generate test data**: Use a reproducible generator to create at least **100,000 charging sessions** and **1,000,000 timestamped measurement or status records**.
+
+**4. Develop complex SQL queries**: Implement at least **10 queries** across the query set using multi-table joins, aggregation, time-interval searches, subqueries or CTEs, and window functions.
+
+**5. Implement business logic**: Implement at least one stored procedure or function using **T-SQL**. Add a trigger only where justified.
+
+---
+
+<!-- 2xl -->
+## Functional requirements — Performance and AI
+
+**6. Analyse query performance**: Document baseline execution plans and performance measurements for at least **five queries**.
+
+**7. Optimize queries**: Compare at least **two indexing or query-optimization approaches**, using execution times and execution plans.
+
+**8. Automate measurements**: Build a custom script or application component that records repeatable performance measurements before and after optimization.
+
+**9. Evaluate AI suggestions**: Obtain AI-generated optimization suggestions for at least **three queries**. Check each suggestion for correctness, executability, SQL Server compatibility, and measured performance.
+
+**10. Document AI security**: Document privacy and security risks when sharing information with external AI services. Manually review AI-generated SQL before execution; do not execute suggestions automatically.
+
+---
+
+<!-- 2xl -->
 ## Initial user journey 1: Analyse charging-network activity
 
 1. An analyst chooses a time period and one or more charging stations.
