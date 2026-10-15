@@ -4,7 +4,7 @@ project_outline: "[[semester-1-en/01-project-outline-sample]]"
 
 # EV Charging Network Database with AI-Supported Performance Optimization
 
-## 1. Actors and permissions
+## 1. Operators and permissions
 
 | Role | Needs | Responsibility / access |
 |---|---|---|
@@ -18,10 +18,10 @@ A complete user-facing application with separate login accounts and permission s
 
 ### Manage and analyse charging data
 
-- **Actor:** Charging network operator / student
+- **Operator:** Charging network operator / student
 - **Precondition:** The database contains valid charging-network data.
 - **Main flow:**
-  1. The actor selects a business question, such as identifying the most frequently used charging stations.
+  1. The operator selects a business question, such as identifying the most frequently used charging stations.
   2. The corresponding SQL query is executed.
   3. SQL Server retrieves and processes the relevant records.
   4. The results show information such as energy consumption, revenue, or charging activity.
@@ -30,7 +30,7 @@ A complete user-facing application with separate login accounts and permission s
 
 ### Measure and optimize query performance
 
-- **Actor:** Student / database developer
+- **Operator:** Student / database developer
 - **Precondition:** The database contains the required test data and the selected query returns correct results.
 - **Main flow:**
   1. Execute the query and record its baseline performance.
@@ -43,7 +43,7 @@ A complete user-facing application with separate login accounts and permission s
 
 ### Evaluate AI optimization suggestions
 
-- **Actor:** Student / AI service
+- **Operator:** Student / AI service
 - **Precondition:** A selected query and its baseline measurements are available.
 - **Main flow:**
   1. Submit the query and relevant schema information to an AI service.
