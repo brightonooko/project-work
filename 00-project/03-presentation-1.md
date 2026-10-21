@@ -5,6 +5,8 @@ project_outline: "[[00-project/01-project-outline]]"
 <!-- 5xl -->
 # Design and Performance Optimization of an EV Charging Network Database with AI Support
 
+The database will manage the main information required by a charging network, including charging stations, charging points, users, electric vehicles, reservations, charging sessions, energy consumption, tariffs, payments, and technical faults. To investigate how a relational database performs when it contains a large amount of charging-network data with AI being used to generate optimization suggestions, which are reviewed and evaluated through practical experiments.
+
 Author: Brighton Onyango Ooko  
 Neptun: J2ADF0  
 Supervisor: Anett LENART  
